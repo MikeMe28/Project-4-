@@ -140,3 +140,7 @@ HIGHLIGHTS
 
 */ 
 
+.highlight__wrapper {
+    display: flex;
+}
+
