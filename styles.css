@@ -102,9 +102,14 @@ li {
     right: 0;
     bottom: 0;
     z-index: 100;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.menu--open .menu__backdrop {
+    display: flex; 
 }
 
 .menu__links {
@@ -115,6 +120,11 @@ li {
 
 .menu__list {
     padding: 32px 0;
+}
+
+.menu__link {
+    font-size: 40px;
+    color: white;
 }
 
 .btn__menu--close {
